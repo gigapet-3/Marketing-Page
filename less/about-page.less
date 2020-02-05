@@ -1,0 +1,29 @@
+.about-content-container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  padding: 16px;
+  
+  .mobile-column();
+
+  .about-content-images {
+    display: flex;
+    width: 100%;
+
+    @media @hide {
+      display: none;
+    }
+
+    .about-image-container {
+      width: 33%;
+      margin: 16px;
+    }
+  }
+
+  .about-content-item {
+    display: flex;
+    justify-content: space-evenly;
+
+    .mobile-full-width();
+  }
+}
