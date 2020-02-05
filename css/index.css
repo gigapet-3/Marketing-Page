@@ -189,7 +189,7 @@ img {
 }
 .nav-container .nav-bar a {
   color: #FAFAFA;
-  padding: 16px;
+  padding: 0 0 0 16px;
   font-size: 1.6rem;
 }
 .nav-container .nav-bar a:hover {
