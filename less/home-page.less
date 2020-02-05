@@ -1,0 +1,28 @@
+.content-container {
+  display: flex;
+  width: 100%;
+  padding: 16px;
+  
+  .mobile-column();
+
+  .content-item {
+    display: flex;
+    justify-content: space-evenly;
+    width:48%;
+
+    .mobile-full-width();
+
+    button {
+      .text-on-purple();
+      background-color: @primary;
+      border-radius: 5px;
+      width: 90%;
+      margin: 0 5%;
+
+      &:hover {
+        color: @light-gray;
+        cursor: pointer;
+      }
+    }
+  }
+}
