@@ -192,6 +192,9 @@ img {
   padding: 16px;
   font-size: 1.6rem;
 }
+.nav-container .nav-bar a:hover {
+  color: #C0C0C0;
+}
 .nav-container .nav-item {
   font-size: 1.6rem;
 }
@@ -245,4 +248,8 @@ img {
   border-radius: 5px;
   width: 90%;
   margin: 0 5%;
+}
+.content-container .content-item button:hover {
+  color: #C0C0C0;
+  cursor: pointer;
 }
