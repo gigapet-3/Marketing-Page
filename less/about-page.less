@@ -25,5 +25,22 @@
     justify-content: space-evenly;
 
     .mobile-full-width();
+
+    .preview {
+      display: none;
+    }
+
+    @media @disable {
+      a:hover + .preview,.preview:hover{
+        display: block;
+        position: absolute;
+        transform: translate(400px,-100%);
+        background-color: @alabaster;
+        padding: 4px;
+        text-indent: 0;
+        border: 3px solid @primary;
+        z-index: 100;
+      }
+    }
   }
 }
